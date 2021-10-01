@@ -7,24 +7,27 @@ class Code{
     
      clues() {
         
-        fill("white")
-        textSize(15)
-        text("R E V B A I L A", 100,50)
-        fill("lightblue")
-        text("Hint: Always changing, not constant !!", 100,70)
+        fill("black")
+        textSize(20)
+        text("1. What is the full form of army?", 100,50)
+        
     
-        fill("white")
-        textSize(15)
-        text("C U T N I F O N", 700,150)
-        fill("lightblue")
-        text("Hint: Performs a particular task !!", 700,170)
-    
-        fill("white")
-        textSize(15)
-        text("A T E D A S B A", 100,250)
-        fill("lightblue")
-        text("Hint: Stores all information !!", 100,270)
-    
+        fill("black")
+        textSize(20)
+        text("2. What is the real name of RM?", 650,50)
+       
+        fill("black")
+        textSize(20)
+        text("3. Which member is known for their love of eating?", 100,300)
+       
+        fill("black")
+        textSize(20)
+        text("4. what was BTS’s very first song?", 650,300)
+
+        fill("black")
+        textSize(20)
+        text("5. who was the last member that Bighit revealed?", 300,175)
+        
     }
 
 }

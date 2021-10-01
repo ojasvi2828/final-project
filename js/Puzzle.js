@@ -1,0 +1,9 @@
+class Puzzle{
+
+    constructor(){
+
+    }
+    display(){
+
+    }
+}

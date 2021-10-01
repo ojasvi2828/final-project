@@ -1,12 +1,14 @@
-const accessCode1 = "VARIABLE";
-const accessCode2 = "FUNCTION";
-const accessCode3 = "DATABASE";
+const accessCode1 = "ADORABLE REPRESENTATITIVE M.C FOR YOUTH";
+const accessCode2 = "KIM NAMJOON";
+const accessCode3 = "JIN";
+const accessCode4 = "NO MORE DREAMS";
+const accessCode5 = "TAEHYUNG";
 var bg,bg2,form,system,code,security;
 var score=0;
 var gameState ="start";
 function preload() {
   bg = loadImage("png/bts.jpg");
-  bg2 = loadImage("png/83171521.jpg")
+  bg2 = loadImage("png/bts2.jpg")
 }
 
 function setup() {
@@ -63,7 +65,7 @@ function draw() {
  
   drawSprites();
   
- /* textSize(20);
+  textSize(20);
   fill("red")
-  text(mouseX+","+mouseY,mouseX,mouseY);*/
+  text(mouseX+","+mouseY,mouseX,mouseY);
 }
