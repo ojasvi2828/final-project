@@ -22,12 +22,12 @@ class Security {
         this.access3.position(100,290);
         this.access3.style('background', 'white');  
 
-        //Debug the code to create the third button.
         this.button3 = createButton('Check');
         this.button3.position(100,320);
         this.button3.style('background', 'lightgrey'); 
     }
 
+    
     display(){
 
         this.button1.mousePressed(() => {
@@ -46,7 +46,6 @@ class Security {
             }
         });
 
-        // On mousePressed, check the input condition. 
         this.button3.mousePressed(() => {
             if(system.authenticate(accessCode3,this.access3.value())){
                 this.button3.hide();
