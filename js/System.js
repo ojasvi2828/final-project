@@ -3,10 +3,13 @@ class System{
     constructor(){}
 
     authenticate(actualCode,enteredCode){
-        if(actualCode === enteredCode.toUpperCase()) 
+        if(actualCode === enteredCode.toUpperCase()) {
+           console.log("correct")
             return true
-        else
+        }
+        else{
             return false
+        }
     }
 
 }

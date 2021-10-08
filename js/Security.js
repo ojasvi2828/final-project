@@ -43,6 +43,19 @@ class Security {
         this.button5.style('background', 'pink');
     }
 
+    hide(){
+        this.button1.hide();
+        this.access1.hide();
+        this.button2.hide();
+        this.access2.hide();
+        this.button3.hide();
+        this.access3.hide();
+        this.button4.hide();
+        this.access4.hide();
+        this.button5.hide();
+        this.access5.hide();
+    }
+
     
     display(){
 
@@ -51,6 +64,7 @@ class Security {
                 this.button1.hide();
                 this.access1.hide();
                 score++;
+                count++;
             }
         });
 
@@ -59,6 +73,7 @@ class Security {
                 this.button2.hide();
                 this.access2.hide();
                 score++;
+                count++;
             }
         });
 
@@ -67,6 +82,7 @@ class Security {
                 this.button3.hide();
                 this.access3.hide();
                 score++;
+                count++;
             }
         });
 
@@ -75,6 +91,7 @@ class Security {
                 this.button4.hide();
                 this.access4.hide();
                 score++;
+                count++;
             }
         });
 
@@ -83,6 +100,7 @@ class Security {
                 this.button5.hide();
                 this.access5.hide();
                 score++;
+                count++;
             }
         });
 
