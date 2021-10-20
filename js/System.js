@@ -4,8 +4,7 @@ class System{
 
     authenticate(actualCode,enteredCode){
         if(actualCode === enteredCode.toUpperCase()) {
-           console.log("correct")
-            return true
+             return true
         }
         else{
             return false
