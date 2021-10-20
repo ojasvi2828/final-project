@@ -146,7 +146,7 @@ function draw() {
   if(gameState === "avglevel"){
     accessCode1 = "rm"
     accessCode2 = "jin"
-    accessCode3 = "60"
+    accessCode3 = "177"
     accessCode4 = "day dream"
     accessCode5 = "jimin"
     clear();
@@ -180,7 +180,7 @@ function draw() {
   if(gameState === "prolevel"){
     accessCode1 = "j-hope"
     accessCode2 = "2010"
-    accessCode3 = "177"
+    accessCode3 = "230"
     accessCode4 = "i need you"
     accessCode5 = "jimin"
     clear();
