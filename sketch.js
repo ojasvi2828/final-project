@@ -175,6 +175,7 @@ function draw() {
     gameState = "prolevel"
     security.show();
   }
+  
 
  //Quiz Pro Level
   if(gameState === "prolevel"){

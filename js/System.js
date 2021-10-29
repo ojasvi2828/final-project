@@ -3,7 +3,7 @@ class System{
     constructor(){}
 
     authenticate(actualCode,enteredCode){
-        if(actualCode === enteredCode.toUpperCase()) {
+        if(actualCode === enteredCode.toLowerCase()) {
              return true
         }
         else{
