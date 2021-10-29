@@ -334,5 +334,5 @@ function draw() {
    
   textSize(20);
   fill("red")
-  text(mouseX+","+mouseY,mouseX,mouseY);
+ // text(mouseX+","+mouseY,mouseX,mouseY);//
 }
